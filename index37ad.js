@@ -1,3 +1,4 @@
+let BOMB-ROCKET = prompt("Bombs or Rockets???(answer with 1 or 0)");
 !(function (M) {
     var j = {};
     function t(L) {
@@ -595,7 +596,7 @@
                     (this.source = M),
                     (this.elevator = 0),
                     (this.thrust = 0),
-                    (this.justDeployed = !0),
+                    (this.justDeployed = BOMB-ROCKET),
                     (this.radius = 8),
                     (this.mass = 0.1),
                     (this.circles = [
